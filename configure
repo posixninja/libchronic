@@ -6987,6 +6987,10 @@ _lt_linker_boilerplate=`cat conftest.err`
 $RM -r conftest*
 
 
+## CAVEAT EMPTOR:
+## There is no encapsulation within the following macros, do not change
+## the running order or otherwise move them around unless you know exactly
+## what you are doing...
 if test -n "$compiler"; then
 
 lt_prog_compiler_no_builtin_flag=
@@ -11443,7 +11447,7 @@ fi
 
 
 
-ac_config_files="$ac_config_files Makefile src/Makefile include/Makefile libchronic-1.0.pc"
+ac_config_files="$ac_config_files Makefile src/Makefile include/Makefile include/chronic/Makefile libchronic-1.0.pc"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -12457,6 +12461,7 @@ do
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
     "include/Makefile") CONFIG_FILES="$CONFIG_FILES include/Makefile" ;;
+    "include/chronic/Makefile") CONFIG_FILES="$CONFIG_FILES include/chronic/Makefile" ;;
     "libchronic-1.0.pc") CONFIG_FILES="$CONFIG_FILES libchronic-1.0.pc" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;

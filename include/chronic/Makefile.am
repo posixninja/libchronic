@@ -1,1 +1,0 @@
-include_HEADERS = chronic.h debug.h file.h boolean.h endianness.h architecture.h
