@@ -15,6 +15,6 @@ AC_LANG_C
 AC_HEADER_STDC
 AC_CONFIG_MACRO_DIR([m4])
 
-AC_CONFIG_FILES(Makefile src/Makefile include/Makefile libchronic-1.0.pc)
+AC_CONFIG_FILES(Makefile src/Makefile include/Makefile include/chronic/Makefile libchronic-1.0.pc)
 AC_OUTPUT
 
