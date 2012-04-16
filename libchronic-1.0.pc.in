@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libchronic
+Description: Chronic-Dev Team Common Code
+Requires: 
+Version: 1.0
+Libs: -L${libdir} -lchronic
+Cflags: -I${includedir}
