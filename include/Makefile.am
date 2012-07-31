@@ -1,1 +1,1 @@
-include_HEADERS = chronic/chronic.h chronic/debug.h chronic/file.h chronic/boolean.h chronic/endianness.h chronic/architecture.h
+nobase_include_HEADERS = chronic/chronic.h chronic/debug.h chronic/file.h chronic/boolean.h chronic/endianness.h chronic/architecture.h
