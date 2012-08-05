@@ -7,5 +7,5 @@ Name: libchronic
 Description: Chronic-Dev Team Common Code
 Requires: 
 Version: 1.0
-Libs: -L${libdir} -lchronic
+Libs: -L${libdir} -lchronic-1.0
 Cflags: -I${includedir}
