@@ -19,14 +19,20 @@
 #ifndef COMMON_H
 #define COMMON_H
 
+#include <errno.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include <stdarg.h>
+#include <string.h>
 #include <libgen.h>
 #include <sys/stat.h>
-#include <errno.h>
-#include <stdlib.h>
-#include <string.h>
+
+#include <chronic/file.h>
+#include <chronic/debug.h>
+#include <chronic/boolean.h>
+#include <chronic/endianness.h>
+#include <chronic/architecture.h>
 
 #define BUFSMALL    0x40
 #define BUFMEDIUM   0x400
